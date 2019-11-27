@@ -7,7 +7,7 @@
 if (!global._babelPolyfill) {
   // When the runtime transformer properly detects all shimmed methods, use instead.
   // http://www.2ality.com/2015/12/babel6-helpersstandard-library.html#babel-plugin-transform-runtime
-  require('babel-polyfill');
+  // require('babel-polyfill');
 }
 
 /**
